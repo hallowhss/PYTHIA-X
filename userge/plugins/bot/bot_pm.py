@@ -380,7 +380,7 @@ My Master is : {owner_.flname}</b>
             await send_flood_alert(c_q.from_user)
             FloodConfig.BANNED_USERS.add(user_id)
             raise StopPropagation
-        elif user_id in FloodConfig.BANNED_USERS:
+        if user_id in FloodConfig.BANNED_USERS:
             FloodConfig.BANNED_USERS.remove(user_id)
 
         ########################################################
