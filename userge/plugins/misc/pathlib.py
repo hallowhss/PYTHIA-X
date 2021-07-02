@@ -485,7 +485,7 @@ async def dremove_(message: Message) -> None:
 
 
 @userge.on_cmd(
-    "drename ([^|]+)\|([^|]+)",
+    r"drename ([^|]+)\|([^|]+)",
     about={  # noqa
         "header": "rename a directory or file",
         "usage": "{tr}drename [path / name] | [new name]",
