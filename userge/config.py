@@ -25,7 +25,7 @@ from userge import logbot, logging
 from . import versions
 
 GRepo_regex = comp_regex(
-    "http[s]?://github\.com/(?P<owner>[-\w.]+)/(?P<repo>[-\w.]+)(?:\.git)?"
+    r"http[s]?://github\.com/(?P<owner>[-\w.]+)/(?P<repo>[-\w.]+)(?:\.git)?"
 )
 
 _REPO = Repo()
