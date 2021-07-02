@@ -710,7 +710,7 @@ async def luv_story(message):
     await message.edit("Starting asf")
     animation_chars = [
         "1 ❤️ love story",
-        "  😐             😕 \n/👕\         <👗\ \n 👖               /|",
+        r"  😐             😕 \n/👕\         <👗\ \n 👖               /|",
         "  😉          😳 \n/👕\       /👗\ \n  👖            /|",
         "  😚            😒 \n/👕\         <👗> \n  👖             /|",
         "  😍         ☺️ \n/👕\      /👗\ \n  👖          /|",
